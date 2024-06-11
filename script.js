@@ -21,7 +21,7 @@ var love = setInterval(function(){
 $(document).ready(function(){
     var lines = [
         "Oi amor, tudo bem com você?",
-        "Sei que já faz um tempo que eu já deveria ter te pedido isso...",
+        "Sei que já faz um tempo que eu deveria ter pedido isso...",
         "Então venho aqui finalmente te fazer esse pedido.",
         "Você aceita namorar comigo?"
     ];
@@ -84,7 +84,7 @@ $(document).ready(function(){
 $('.btn-yes').click(function() {
     console.log("Botão Sim clicado");
     // Limpar o card e adicionar mensagem
-    $('.glass-card').empty().append('<h2>Agora eu e momo somos oficialmente namorados!!! Eu te amo minha princesa!!! ❤️</h2>');
+    $('.glass-card').empty().append('<h2>Agora eu e momoi somos oficialmente namorados!!! Eu te amo minha princesa!!! ❤️</h2>');
 
     // Mostrar o GIF
     $('.gif-container').removeClass('hidden');
