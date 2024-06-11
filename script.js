@@ -64,7 +64,7 @@ $(document).ready(function(){
                 $('.btn-no').click(function() {
                     console.log("Botão Não clicado");
                     // Atualizar o texto do botão "Não"
-                    var nonoTexts = ["Certeza?", "Sério? :(", "Eu vou ficar tristão", "Muito tristão", "Aceita momoi", "Pufavo"];
+                    var nonoTexts = ["Certeza?", "Sério? :(", "Eu vou ficar tristão", "Muito tristão", "Aceita momoi", "Pufavo", "Não!"];
                     var nonoIndex = 0;
                     
                     $(this).text(nonoTexts[nonoIndex]);
